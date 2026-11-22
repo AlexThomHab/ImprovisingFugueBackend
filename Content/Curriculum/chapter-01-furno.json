@@ -1,0 +1,878 @@
+{
+  "slug": "ch1-introduction-to-furno",
+  "number": 1,
+  "title": "Introduction to Furno",
+  "subtitle": "Partimento foundations and the Rule of the Octave",
+  "description": "Meet the Neapolitan partimento tradition, learn how figured-bass numbers work, and memorise the Rule of the Octave in major and minor — the harmonic map every later chapter builds on.",
+  "isPremium": false,
+  "lessons": [
+    {
+      "slug": "what-is-partimento",
+      "title": "What is Partimento?",
+      "summary": "A bass line as a complete lesson in composition.",
+      "kind": "lesson",
+      "xpReward": 10,
+      "icon": "scroll",
+      "exercises": [
+        {
+          "key": "intro",
+          "type": "info",
+          "content": {
+            "title": "A bass line that teaches",
+            "body": [
+              "A partimento is a single written bass line, sometimes with a few numbers or a fragment of melody, that a student turns into complete music at the keyboard.",
+              "In the conservatories of eighteenth-century Naples, apprentices worked through hundreds of these basses. Each one quietly encoded a habit of good voice-leading, so that by playing them the student absorbed a whole musical vocabulary.",
+              "Think of a partimento less as a finished piece and more as a set of instructions: the bass tells you where the harmony is going, and your hands supply the rest."
+            ]
+          }
+        },
+        {
+          "key": "q-definition",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "What does a partimento usually give the player?",
+            "options": [
+              "A fully written-out piece to be played exactly as notated",
+              "A bass line, sometimes with figures, to be realised into complete music",
+              "A melody with chord symbols written above it",
+              "A set of scales to be practised hands separately"
+            ]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "The core of a partimento is the bass. The player supplies harmony, voice-leading and often melody on top of it."
+          }
+        },
+        {
+          "key": "context",
+          "type": "info",
+          "content": {
+            "title": "Who used partimenti?",
+            "body": [
+              "Teachers in Naples — names such as Durante, Fenaroli and Furno appear in the surviving manuscripts — wrote graded collections of basses for their students.",
+              "Giovanni Furno's short method is a compact starting point: a handful of rules about which chords belong on which bass notes, followed by exercises that put those rules to work. This chapter follows that same spirit."
+            ]
+          }
+        },
+        {
+          "key": "q-where",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Partimento teaching flourished most famously in which city's conservatories?",
+            "options": ["Vienna", "Leipzig", "Naples", "Paris"]
+          },
+          "answer": {
+            "correctIndex": 2,
+            "explanation": "The Neapolitan conservatories were the great centre of partimento training in the eighteenth century."
+          }
+        },
+        {
+          "key": "q-goal",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Why did students play so many partimenti?",
+            "options": [
+              "To build a memorised vocabulary of patterns they could improvise and compose with",
+              "To prepare for written theory examinations",
+              "To learn to sight-read difficult rhythms",
+              "Because printed music was forbidden in conservatories"
+            ]
+          },
+          "answer": {
+            "correctIndex": 0,
+            "explanation": "Repetition across many basses turned voice-leading patterns into reflexes — the raw material for improvisation and composition."
+          }
+        }
+      ],
+      "reviewItems": [
+        {
+          "key": "c1-partimento-def",
+          "front": "What is a partimento?",
+          "back": "A (usually figured) bass line that the player realises into complete music at the keyboard."
+        },
+        {
+          "key": "c1-partimento-city",
+          "front": "Which city's conservatories made partimento training famous?",
+          "back": "Naples (18th century)."
+        }
+      ]
+    },
+    {
+      "slug": "recognize-realize-stylize",
+      "title": "Recognize, Realize, Stylize",
+      "summary": "Three stages for turning a bass into music.",
+      "kind": "lesson",
+      "xpReward": 10,
+      "icon": "steps",
+      "exercises": [
+        {
+          "key": "intro",
+          "type": "info",
+          "content": {
+            "title": "A three-step habit",
+            "body": [
+              "Working through any partimento can be split into three stages.",
+              "Recognize: look at the bass and identify the pattern — which scale degree are we on, which way is the line moving, is there a cadence coming?",
+              "Realize: choose the harmony that pattern calls for and place it under your fingers with smooth voice-leading.",
+              "Stylize: once the harmony is secure, decorate it — add figuration, imitation, or a melody — so the result sounds like real music rather than a chord exercise."
+            ]
+          }
+        },
+        {
+          "key": "q-order",
+          "type": "ordering",
+          "content": {
+            "prompt": "Put the three stages in the order you apply them.",
+            "items": [
+              { "id": "stylize", "label": "Stylize" },
+              { "id": "recognize", "label": "Recognize" },
+              { "id": "realize", "label": "Realize" }
+            ]
+          },
+          "answer": {
+            "order": ["recognize", "realize", "stylize"],
+            "explanation": "First identify the pattern, then supply its harmony, and only then decorate it."
+          }
+        },
+        {
+          "key": "q-recognize",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "You notice the bass is climbing step by step from the tonic. Which stage are you in?",
+            "options": ["Recognize", "Realize", "Stylize"]
+          },
+          "answer": {
+            "correctIndex": 0,
+            "explanation": "Identifying the shape of the bass is recognition — nothing has been played on top of it yet."
+          }
+        },
+        {
+          "key": "q-stylize",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "You turn plain block chords into a flowing broken-chord figure. Which stage is that?",
+            "options": ["Recognize", "Realize", "Stylize"]
+          },
+          "answer": {
+            "correctIndex": 2,
+            "explanation": "Adding figuration to harmony that is already in place is stylization."
+          }
+        },
+        {
+          "key": "q-why",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Why is it risky to start stylizing before the harmony is secure?",
+            "options": [
+              "Decoration makes the music too quiet",
+              "Elaborate figuration built on the wrong chords just makes wrong chords more noticeable",
+              "Stylizing is only allowed in fugues",
+              "There is no risk; order does not matter"
+            ]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Stylization amplifies whatever is underneath it, so the harmonic skeleton has to be right first."
+          }
+        }
+      ],
+      "reviewItems": [
+        {
+          "key": "c1-rrs-order",
+          "front": "The three stages of working a partimento, in order?",
+          "back": "Recognize → Realize → Stylize."
+        },
+        {
+          "key": "c1-rrs-realize",
+          "front": "In the three-stage process, what does 'Realize' mean?",
+          "back": "Supplying the harmony the recognised pattern calls for, with good voice-leading."
+        }
+      ]
+    },
+    {
+      "slug": "intro-figured-bass",
+      "title": "Introduction to Figured Bass",
+      "summary": "Reading the numbers: intervals above the bass.",
+      "kind": "lesson",
+      "xpReward": 10,
+      "icon": "numbers",
+      "exercises": [
+        {
+          "key": "intro",
+          "type": "info",
+          "content": {
+            "title": "Numbers are intervals",
+            "body": [
+              "A figure is an interval counted upward from the bass note, using the notes of the key. A 6 means 'a sixth above the bass'; a 3 means 'a third above'.",
+              "Octaves don't matter: a tenth counts as a third, so you are free to place the upper notes wherever your hand is comfortable.",
+              "Figures are often abbreviated. A bass note with no figure normally means 5/3 (a root-position triad). A lone 6 means 6/3 — the third is understood."
+            ],
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["c/3"], "duration": "h", "figures": ["5", "3"] },
+                { "keys": ["e/3"], "duration": "h", "figures": ["6"] }
+              ]
+            }
+          }
+        },
+        {
+          "key": "q-six",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "In C major the bass is E with the figure 6. Which notes go above it?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [{ "keys": ["e/3"], "duration": "w", "figures": ["6"], "highlight": true }]
+            },
+            "options": ["G and B", "G and C", "F and A", "A and C"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "A third above E is G and a sixth above E is C, giving E–G–C: a C major chord in first inversion."
+          }
+        },
+        {
+          "key": "q-blank",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "A bass note has no figure at all. What is normally assumed?",
+            "options": ["6/3", "5/3", "6/4", "7"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "An unfigured note is played as a root-position triad: a fifth and a third above the bass."
+          }
+        },
+        {
+          "key": "kb-sixth",
+          "type": "keyboard",
+          "content": {
+            "prompt": "The bass is D with a 6. Play the note a sixth above D (in C major).",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [{ "keys": ["d/3"], "duration": "w", "figures": ["6"], "highlight": true }]
+            },
+            "lowMidi": 48,
+            "highMidi": 72
+          },
+          "answer": {
+            "pitchClasses": [11],
+            "explanation": "Counting D(1)–E–F–G–A–B(6): a sixth above D is B."
+          }
+        },
+        {
+          "key": "q-643",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Bass D, figures 6/4/3, in C major. Which set of upper notes matches?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [{ "keys": ["d/3"], "duration": "w", "figures": ["6", "4", "3"], "highlight": true }]
+            },
+            "options": ["F, A, B", "F, G, B", "E, G, B", "F, G, A"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Third = F, fourth = G, sixth = B. Together with D that spells G–B–D–F: a dominant seventh with its fifth in the bass."
+          }
+        },
+        {
+          "key": "q-compound",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "You place a note a tenth above the bass. How is it figured?",
+            "options": ["As a 10", "As a 3", "As an 8", "It can't be figured"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Compound intervals reduce by an octave: a tenth is figured as a third."
+          }
+        }
+      ],
+      "reviewItems": [
+        {
+          "key": "c1-fb-unfigured",
+          "front": "An unfigured bass note normally implies which chord?",
+          "back": "5/3 — a root-position triad."
+        },
+        {
+          "key": "c1-fb-six",
+          "front": "What does a lone '6' under a bass note stand for?",
+          "back": "6/3 — a sixth and a third above the bass (a first-inversion triad)."
+        },
+        {
+          "key": "c1-fb-643",
+          "front": "Bass D in C major, figure 6/4/3: which notes?",
+          "back": "D with F, G and B (a G7 chord with D in the bass).",
+          "notation": {
+            "clef": "bass",
+            "keySignature": "C",
+            "notes": [{ "keys": ["d/3"], "duration": "w", "figures": ["6", "4", "3"] }]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "rule-of-octave-major",
+      "title": "Rule of the Octave — Major",
+      "summary": "One chord for every step of the scale, up and down.",
+      "kind": "lesson",
+      "xpReward": 15,
+      "icon": "ladder",
+      "exercises": [
+        {
+          "key": "intro",
+          "type": "info",
+          "content": {
+            "title": "A harmony for every scale step",
+            "body": [
+              "The Rule of the Octave assigns a standard chord to each degree of a bass that moves by step through the scale. Learn it once and you can harmonise any stepwise bass on sight.",
+              "The stable degrees — 1 and 5 — take root-position triads. Most other degrees take sixth chords of some kind, which keeps the bass smooth and the harmony moving toward the next stable point.",
+              "Here is the ascending form in C major. Play it slowly and listen to how each chord leans toward the next."
+            ],
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["c/3"], "duration": "q", "figures": ["5", "3"], "label": "1" },
+                { "keys": ["d/3"], "duration": "q", "figures": ["6", "4", "3"], "label": "2" },
+                { "keys": ["e/3"], "duration": "q", "figures": ["6"], "label": "3" },
+                { "keys": ["f/3"], "duration": "q", "figures": ["6", "5"], "label": "4" },
+                { "keys": ["g/3"], "duration": "q", "figures": ["5", "3"], "label": "5" },
+                { "keys": ["a/3"], "duration": "q", "figures": ["6"], "label": "6" },
+                { "keys": ["b/3"], "duration": "q", "figures": ["6", "5"], "label": "7" },
+                { "keys": ["c/4"], "duration": "q", "figures": ["5", "3"], "label": "8" }
+              ]
+            }
+          }
+        },
+        {
+          "key": "q-asc-2",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Ascending in C major: which figure belongs on scale degree 2?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["c/3"], "duration": "q", "figures": ["5", "3"] },
+                { "keys": ["d/3"], "duration": "q", "figures": ["?"], "highlight": true },
+                { "keys": ["e/3"], "duration": "q", "figures": ["6"] }
+              ]
+            },
+            "options": ["5/3", "6/4/3", "6/5", "6/4/2"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Degree 2 takes 6/4/3 — a dominant-seventh sonority that leads naturally on to degree 3."
+          }
+        },
+        {
+          "key": "q-asc-7",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Ascending: what does the leading tone (degree 7) carry on its way to the octave?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["a/3"], "duration": "q", "figures": ["6"] },
+                { "keys": ["b/3"], "duration": "q", "figures": ["?"], "highlight": true },
+                { "keys": ["c/4"], "duration": "q", "figures": ["5", "3"] }
+              ]
+            },
+            "options": ["5/3", "6", "6/5", "6/4/3"]
+          },
+          "answer": {
+            "correctIndex": 2,
+            "explanation": "Degree 7 ascending takes 6/5 (B–D–F–G), another dominant-seventh shape that resolves to the tonic."
+          }
+        },
+        {
+          "key": "desc-intro",
+          "type": "info",
+          "content": {
+            "title": "Coming back down",
+            "body": [
+              "Descending, a few degrees change their chords. Degree 7 relaxes to a plain 6, degree 6 gets a raised sixth that points toward degree 5, and degree 4 takes 6/4/2 so its dissonance can fall to degree 3.",
+              "Here is the descending form in C major."
+            ],
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["c/4"], "duration": "q", "figures": ["5", "3"], "label": "8" },
+                { "keys": ["b/3"], "duration": "q", "figures": ["6"], "label": "7" },
+                { "keys": ["a/3"], "duration": "q", "figures": ["♯6", "4", "3"], "label": "6" },
+                { "keys": ["g/3"], "duration": "q", "figures": ["5", "3"], "label": "5" },
+                { "keys": ["f/3"], "duration": "q", "figures": ["6", "4", "2"], "label": "4" },
+                { "keys": ["e/3"], "duration": "q", "figures": ["6"], "label": "3" },
+                { "keys": ["d/3"], "duration": "q", "figures": ["6", "4", "3"], "label": "2" },
+                { "keys": ["c/3"], "duration": "q", "figures": ["5", "3"], "label": "1" }
+              ]
+            }
+          }
+        },
+        {
+          "key": "q-stable",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Which two scale degrees take a root-position 5/3 chord in both directions?",
+            "options": ["1 and 4", "1 and 5", "3 and 6", "2 and 7"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Tonic and dominant are the stable pillars of the Rule of the Octave."
+          }
+        },
+        {
+          "key": "q-three",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Degree 3 takes the same figure in both directions. Which?",
+            "options": ["5/3", "6", "6/5", "6/4/2"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Degree 3 always carries a simple 6 — the tonic chord in first inversion."
+          }
+        },
+        {
+          "key": "ord-asc",
+          "type": "ordering",
+          "content": {
+            "prompt": "Arrange the figures for degrees 1–4 ascending in major.",
+            "items": [
+              { "id": "d3", "label": "6" },
+              { "id": "d1", "label": "5/3" },
+              { "id": "d4", "label": "6/5" },
+              { "id": "d2", "label": "6/4/3" }
+            ]
+          },
+          "answer": {
+            "order": ["d1", "d2", "d3", "d4"],
+            "explanation": "1: 5/3 · 2: 6/4/3 · 3: 6 · 4: 6/5."
+          }
+        }
+      ],
+      "reviewItems": [
+        { "key": "c1-ro-maj-asc-1", "front": "Rule of the Octave, major, ascending — degree 1?", "back": "5/3" },
+        { "key": "c1-ro-maj-asc-2", "front": "Rule of the Octave, major, ascending — degree 2?", "back": "6/4/3" },
+        { "key": "c1-ro-maj-asc-3", "front": "Rule of the Octave, major — degree 3 (either direction)?", "back": "6" },
+        { "key": "c1-ro-maj-asc-4", "front": "Rule of the Octave, major, ascending — degree 4?", "back": "6/5" },
+        { "key": "c1-ro-maj-asc-6", "front": "Rule of the Octave, major, ascending — degree 6?", "back": "6" },
+        { "key": "c1-ro-maj-asc-7", "front": "Rule of the Octave, major, ascending — degree 7?", "back": "6/5" },
+        { "key": "c1-ro-maj-desc-7", "front": "Rule of the Octave, major, descending — degree 7?", "back": "6" },
+        {
+          "key": "c1-ro-maj-asc-full",
+          "front": "Play the ascending major Rule of the Octave in C. Name every figure.",
+          "back": "5/3 · 6/4/3 · 6 · 6/5 · 5/3 · 6 · 6/5 · 5/3",
+          "notation": {
+            "clef": "bass",
+            "keySignature": "C",
+            "notes": [
+              { "keys": ["c/3"], "duration": "q" }, { "keys": ["d/3"], "duration": "q" },
+              { "keys": ["e/3"], "duration": "q" }, { "keys": ["f/3"], "duration": "q" },
+              { "keys": ["g/3"], "duration": "q" }, { "keys": ["a/3"], "duration": "q" },
+              { "keys": ["b/3"], "duration": "q" }, { "keys": ["c/4"], "duration": "q" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "rule-of-octave-minor",
+      "title": "Rule of the Octave — Minor",
+      "summary": "The same map in minor, with its characteristic colours.",
+      "kind": "lesson",
+      "xpReward": 15,
+      "icon": "ladder-minor",
+      "exercises": [
+        {
+          "key": "intro",
+          "type": "info",
+          "content": {
+            "title": "Minor follows the same plan",
+            "body": [
+              "In minor the chord types stay almost the same as in major, but the leading tone must be raised whenever dominant harmony appears. Figures with a sharp (♯) or natural (♮) remind you of that raised note.",
+              "Ascending, the bass itself usually raises degrees 6 and 7 so the line climbs smoothly to the tonic. Descending, the bass uses the natural (lowered) forms.",
+              "Here is the ascending form in A minor. Notice the G♯ and F♯ in the bass, and the ♯3 on degree 5."
+            ],
+            "notation": {
+              "clef": "bass",
+              "keySignature": "Am",
+              "notes": [
+                { "keys": ["a/2"], "duration": "q", "figures": ["5", "3"], "label": "1" },
+                { "keys": ["b/2"], "duration": "q", "figures": ["♯6", "4", "3"], "label": "2" },
+                { "keys": ["c/3"], "duration": "q", "figures": ["6"], "label": "3" },
+                { "keys": ["d/3"], "duration": "q", "figures": ["6", "5"], "label": "4" },
+                { "keys": ["e/3"], "duration": "q", "figures": ["♯"], "label": "5" },
+                { "keys": ["f#/3"], "duration": "q", "figures": ["6"], "label": "♯6" },
+                { "keys": ["g#/3"], "duration": "q", "figures": ["6", "5"], "label": "♯7" },
+                { "keys": ["a/3"], "duration": "q", "figures": ["5", "3"], "label": "8" }
+              ]
+            }
+          }
+        },
+        {
+          "key": "q-five",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "In A minor, the bass reaches E (degree 5). What does the figure ♯ (or ♯3) tell you?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "Am",
+              "notes": [{ "keys": ["e/3"], "duration": "w", "figures": ["♯"], "highlight": true }]
+            },
+            "options": [
+              "Raise the bass note to E♯",
+              "Play a major triad on E by raising the third to G♯",
+              "Play a minor triad on E",
+              "Add a sharp seventh above E"
+            ]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "A lone accidental applies to the third. E–G♯–B is the major dominant chord that minor keys need."
+          }
+        },
+        {
+          "key": "kb-leading",
+          "type": "keyboard",
+          "content": {
+            "prompt": "Play the leading tone of A minor — the note that degree 5's ♯3 creates.",
+            "lowMidi": 48,
+            "highMidi": 72
+          },
+          "answer": {
+            "pitchClasses": [8],
+            "explanation": "The leading tone of A minor is G♯, a half step below the tonic."
+          }
+        },
+        {
+          "key": "desc-intro",
+          "type": "info",
+          "content": {
+            "title": "Descending in minor",
+            "body": [
+              "Coming down, the bass returns to G♮ and F♮. Degree 6 (F) carries ♯6/4/3 — the raised sixth above F is D♯, producing a sharply directed chord that pushes into the dominant.",
+              "Degree 4 again takes 6/4/2, with a sharp on the fourth so the leading tone appears."
+            ],
+            "notation": {
+              "clef": "bass",
+              "keySignature": "Am",
+              "notes": [
+                { "keys": ["a/3"], "duration": "q", "figures": ["5", "3"], "label": "8" },
+                { "keys": ["g/3"], "duration": "q", "figures": ["6"], "label": "7" },
+                { "keys": ["f/3"], "duration": "q", "figures": ["♯6", "4", "3"], "label": "6" },
+                { "keys": ["e/3"], "duration": "q", "figures": ["♯"], "label": "5" },
+                { "keys": ["d/3"], "duration": "q", "figures": ["6", "♯4", "2"], "label": "4" },
+                { "keys": ["c/3"], "duration": "q", "figures": ["6"], "label": "3" },
+                { "keys": ["b/2"], "duration": "q", "figures": ["♯6", "4", "3"], "label": "2" },
+                { "keys": ["a/2"], "duration": "q", "figures": ["5", "3"], "label": "1" }
+              ]
+            }
+          }
+        },
+        {
+          "key": "q-asc-bass",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Ascending in A minor, which bass notes are usually raised?",
+            "options": ["C and D", "F and G", "B and E", "None — the bass never changes"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Degrees 6 and 7 rise to F♯ and G♯ so the bass climbs to the tonic without an augmented second."
+          }
+        },
+        {
+          "key": "kb-aug6",
+          "type": "keyboard",
+          "content": {
+            "prompt": "Descending in A minor, the bass F carries ♯6/4/3. Play the raised sixth above F.",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "Am",
+              "notes": [{ "keys": ["f/3"], "duration": "w", "figures": ["♯6", "4", "3"], "highlight": true }]
+            },
+            "lowMidi": 48,
+            "highMidi": 72
+          },
+          "answer": {
+            "pitchClasses": [3],
+            "explanation": "A sixth above F in A minor is D; raising it gives D♯, which resolves up to E."
+          }
+        },
+        {
+          "key": "q-desc-2",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Degree 2 in minor (B in A minor) carries which figure, in either direction?",
+            "options": ["5/3", "6", "♯6/4/3", "6/4/2"]
+          },
+          "answer": {
+            "correctIndex": 2,
+            "explanation": "Like major, degree 2 takes 6/4/3 — with the sixth raised to G♯ so the dominant has its leading tone."
+          }
+        }
+      ],
+      "reviewItems": [
+        { "key": "c1-ro-min-5", "front": "Rule of the Octave, minor — degree 5?", "back": "5/♯3 (major triad: raise the third to the leading tone)." },
+        { "key": "c1-ro-min-asc-bass", "front": "Minor Rule of the Octave ascending: which bass degrees are raised?", "back": "Degrees 6 and 7 (e.g. F♯ and G♯ in A minor)." },
+        { "key": "c1-ro-min-desc-6", "front": "Minor Rule of the Octave descending — degree 6?", "back": "♯6/4/3 (in A minor: F–A–B–D♯)." },
+        { "key": "c1-ro-min-2", "front": "Minor Rule of the Octave — degree 2?", "back": "♯6/4/3 (sixth raised to the leading tone)." },
+        { "key": "c1-ro-min-desc-4", "front": "Minor Rule of the Octave descending — degree 4?", "back": "6/♯4/2." }
+      ]
+    },
+    {
+      "slug": "four-six-exceptions",
+      "title": "The 4–6 Exceptions",
+      "summary": "Why degrees 4 and 6 change with direction.",
+      "kind": "lesson",
+      "xpReward": 15,
+      "icon": "arrows",
+      "exercises": [
+        {
+          "key": "intro",
+          "type": "info",
+          "content": {
+            "title": "Direction matters on 4 and 6",
+            "body": [
+              "Most Rule of the Octave chords are the same whichever way the bass moves. Degrees 4 and 6 are the important exceptions — their chord depends on where the bass is heading.",
+              "Degree 4 going up to 5 takes 6/5. Degree 4 coming down from 5 takes 6/4/2: the bass note is now the dissonant seventh of a dominant chord, so it must keep falling to degree 3.",
+              "Degree 6 going up takes a plain 6. Degree 6 coming down to 5 takes ♯6/4/3, borrowing a leading tone that points at the dominant."
+            ],
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["f/3"], "duration": "q", "figures": ["6", "5"], "label": "4↑" },
+                { "keys": ["g/3"], "duration": "q", "figures": ["5", "3"], "label": "5" },
+                { "keys": ["f/3"], "duration": "q", "figures": ["6", "4", "2"], "label": "4↓" },
+                { "keys": ["e/3"], "duration": "q", "figures": ["6"], "label": "3" }
+              ]
+            }
+          }
+        },
+        {
+          "key": "q-4-up",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Bass F rising to G in C major. Which figure goes on F?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["e/3"], "duration": "q", "figures": ["6"] },
+                { "keys": ["f/3"], "duration": "q", "figures": ["?"], "highlight": true },
+                { "keys": ["g/3"], "duration": "q", "figures": ["5", "3"] }
+              ]
+            },
+            "options": ["6/5", "6/4/2", "♯6/4/3", "5/3"]
+          },
+          "answer": {
+            "correctIndex": 0,
+            "explanation": "Rising 4 → 5 takes 6/5 (F–A–C–D), a strong approach to the dominant."
+          }
+        },
+        {
+          "key": "q-4-down",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Bass G falls to F, then to E. Which figure goes on F?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["g/3"], "duration": "q", "figures": ["5", "3"] },
+                { "keys": ["f/3"], "duration": "q", "figures": ["?"], "highlight": true },
+                { "keys": ["e/3"], "duration": "q", "figures": ["6"] }
+              ]
+            },
+            "options": ["6/5", "6/4/2", "6", "5/3"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Falling 5 → 4 → 3 takes 6/4/2 on F: G–B–D with F in the bass, resolving down to E."
+          }
+        },
+        {
+          "key": "q-6-down",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Bass A falling to G in C major. Which figure goes on A?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "C",
+              "notes": [
+                { "keys": ["b/3"], "duration": "q", "figures": ["6"] },
+                { "keys": ["a/3"], "duration": "q", "figures": ["?"], "highlight": true },
+                { "keys": ["g/3"], "duration": "q", "figures": ["5", "3"] }
+              ]
+            },
+            "options": ["6", "6/5", "♯6/4/3", "6/4/2"]
+          },
+          "answer": {
+            "correctIndex": 2,
+            "explanation": "Descending 6 → 5 takes ♯6/4/3: A–C–D–F♯, which leans strongly into G."
+          }
+        },
+        {
+          "key": "kb-fsharp",
+          "type": "keyboard",
+          "content": {
+            "prompt": "In that ♯6/4/3 chord on A (C major), play the raised sixth.",
+            "lowMidi": 48,
+            "highMidi": 72
+          },
+          "answer": {
+            "pitchClasses": [6],
+            "explanation": "A sixth above A is F; raised, it becomes F♯ — the temporary leading tone to G."
+          }
+        },
+        {
+          "key": "q-motion",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Listen to the bass motion: the bass is on degree 6 and the next note is degree 7. Which chord does degree 6 take?",
+            "options": ["6", "♯6/4/3", "6/4/2", "5/3"]
+          },
+          "answer": {
+            "correctIndex": 0,
+            "explanation": "Ascending, degree 6 is simply a 6 chord — the ♯6/4/3 only appears when the bass is falling to 5."
+          }
+        }
+      ],
+      "reviewItems": [
+        { "key": "c1-ex-4-up", "front": "Degree 4 ascending (to 5) takes…", "back": "6/5" },
+        { "key": "c1-ex-4-down", "front": "Degree 4 descending (from 5 to 3) takes…", "back": "6/4/2 — the bass is a dissonant seventh that must fall." },
+        { "key": "c1-ex-6-up", "front": "Degree 6 ascending takes…", "back": "6" },
+        { "key": "c1-ex-6-down", "front": "Degree 6 descending (to 5) takes…", "back": "♯6/4/3 — a borrowed leading tone to the dominant." }
+      ]
+    },
+    {
+      "slug": "chapter-1-practice",
+      "title": "Chapter 1 Practice & Review",
+      "summary": "Mixed challenge across the whole chapter.",
+      "kind": "practice",
+      "xpReward": 25,
+      "icon": "trophy",
+      "exercises": [
+        {
+          "key": "q-rrs",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "You have just decided that a stepwise bass calls for the Rule of the Octave. Which stage comes next?",
+            "options": ["Recognize", "Realize", "Stylize"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Recognition is done; now you realize the harmony."
+          }
+        },
+        {
+          "key": "q-fig-g",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Ascending major Rule of the Octave in G major: the bass is C (degree 4). Figure?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "G",
+              "notes": [
+                { "keys": ["b/2"], "duration": "q", "figures": ["6"] },
+                { "keys": ["c/3"], "duration": "q", "figures": ["?"], "highlight": true },
+                { "keys": ["d/3"], "duration": "q", "figures": ["5", "3"] }
+              ]
+            },
+            "options": ["6/4/2", "6/5", "6", "5/3"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Degree 4 rising to 5 takes 6/5 in every major key."
+          }
+        },
+        {
+          "key": "ord-desc",
+          "type": "ordering",
+          "content": {
+            "prompt": "Arrange the figures for the major descending line 6 → 5 → 4 → 3.",
+            "items": [
+              { "id": "d4", "label": "6/4/2" },
+              { "id": "d3", "label": "6" },
+              { "id": "d6", "label": "♯6/4/3" },
+              { "id": "d5", "label": "5/3" }
+            ]
+          },
+          "answer": {
+            "order": ["d6", "d5", "d4", "d3"],
+            "explanation": "6: ♯6/4/3 · 5: 5/3 · 4: 6/4/2 · 3: 6."
+          }
+        },
+        {
+          "key": "kb-g-dom",
+          "type": "keyboard",
+          "content": {
+            "prompt": "In G major, play the bass note that always carries a root-position chord besides the tonic.",
+            "lowMidi": 48,
+            "highMidi": 72
+          },
+          "answer": {
+            "pitchClasses": [2],
+            "explanation": "The dominant of G major is D — degree 5 always takes 5/3."
+          }
+        },
+        {
+          "key": "q-minor",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "In D minor, the bass descends B♭ → A. What does B♭ carry?",
+            "notation": {
+              "clef": "bass",
+              "keySignature": "Dm",
+              "notes": [
+                { "keys": ["c/3"], "duration": "q", "figures": ["6"] },
+                { "keys": ["bb/2"], "duration": "q", "figures": ["?"], "highlight": true },
+                { "keys": ["a/2"], "duration": "q", "figures": ["♯"] }
+              ]
+            },
+            "options": ["6", "♯6/4/3", "6/5", "5/3"]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Descending degree 6 to 5 takes ♯6/4/3 — here B♭–D–E–G♯."
+          }
+        },
+        {
+          "key": "q-blank-review",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Which statement about figures is true?",
+            "options": [
+              "Figures are counted downward from the melody",
+              "A lone 6 implies 6/3",
+              "A tenth must be written as 10",
+              "Unfigured notes are always left silent"
+            ]
+          },
+          "answer": {
+            "correctIndex": 1,
+            "explanation": "Figures count upward from the bass, compound intervals reduce, and a lone 6 implies 6/3."
+          }
+        }
+      ],
+      "reviewItems": [
+        {
+          "key": "c1-ro-maj-desc-full",
+          "front": "Name the figures of the descending major Rule of the Octave (8 → 1).",
+          "back": "5/3 · 6 · ♯6/4/3 · 5/3 · 6/4/2 · 6 · 6/4/3 · 5/3"
+        }
+      ]
+    }
+  ]
+}

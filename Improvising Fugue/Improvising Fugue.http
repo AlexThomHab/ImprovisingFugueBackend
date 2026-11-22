@@ -1,6 +1,0 @@
-@Improvising_Fugue_HostAddress = http://localhost:5008
-
-GET {{Improvising_Fugue_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

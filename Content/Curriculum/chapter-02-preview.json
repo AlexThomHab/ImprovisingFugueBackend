@@ -1,0 +1,58 @@
+{
+  "slug": "ch2-preview-cadences",
+  "number": 2,
+  "title": "Cadence Formulas",
+  "subtitle": "Premium preview — placeholder content",
+  "description": "Placeholder chapter used to exercise Premium entitlements. Replace with the real Chapter 2 curriculum.",
+  "isPremium": true,
+  "lessons": [
+    {
+      "slug": "cadence-basics",
+      "title": "Simple Cadences",
+      "summary": "How a bass signals the end of a phrase.",
+      "kind": "lesson",
+      "xpReward": 10,
+      "icon": "cadence",
+      "exercises": [
+        {
+          "key": "intro",
+          "type": "info",
+          "content": {
+            "title": "Endings in the bass",
+            "body": [
+              "A cadence closes a musical phrase. In the bass, the most common closing gesture is a leap from degree 5 to degree 1."
+            ]
+          }
+        },
+        {
+          "key": "q-cadence",
+          "type": "multipleChoice",
+          "content": {
+            "prompt": "Which bass motion most strongly signals a full close?",
+            "options": ["1 → 2", "5 → 1", "3 → 4", "6 → 7"]
+          },
+          "answer": { "correctIndex": 1, "explanation": "Dominant to tonic is the strongest closing motion." }
+        }
+      ],
+      "reviewItems": [
+        { "key": "c2-cad-51", "front": "Strongest closing bass motion?", "back": "5 → 1 (dominant to tonic)." }
+      ]
+    },
+    {
+      "slug": "chapter-2-practice",
+      "title": "Chapter 2 Practice",
+      "summary": "Placeholder practice node.",
+      "kind": "practice",
+      "xpReward": 20,
+      "icon": "trophy",
+      "exercises": [
+        {
+          "key": "q-1",
+          "type": "multipleChoice",
+          "content": { "prompt": "A cadence…", "options": ["Opens a phrase", "Closes a phrase"] },
+          "answer": { "correctIndex": 1, "explanation": "Cadences close phrases." }
+        }
+      ]
+    }
+  ]
+}
